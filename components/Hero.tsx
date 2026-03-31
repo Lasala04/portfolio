@@ -93,6 +93,7 @@ export default function Hero() {
         >
           <div className="relative w-72 h-[350px] md:w-80 md:h-[420px] rounded-xl p-[2px] bg-gradient-to-br from-[var(--color-primary)] via-[var(--color-surface)] to-[var(--color-secondary)]">
             <div className="w-full h-full bg-[var(--color-surface)] rounded-[10px] overflow-hidden relative group">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/profile.png" 
                 alt="Dwyn Richie T. Lasala" 

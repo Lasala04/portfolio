@@ -23,11 +23,11 @@ export default function Contact() {
           className="max-w-3xl mx-auto text-center"
         >
           <h2 className="text-4xl md:text-6xl font-heading font-bold text-[var(--color-text-primary)] mb-6">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           
           <p className="text-lg md:text-xl text-[var(--color-text-muted)] mb-12 max-w-xl mx-auto leading-relaxed">
-            Whether it's a project, collaboration, or just a hello — my inbox is open.
+            Whether it&apos;s a project, collaboration, or just a hello — my inbox is open.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">

@@ -1,0 +1,20 @@
+
+> portfolio@0.1.0 lint
+> eslint
+
+
+C:\Users\zeali\portfolio\components\Contact.tsx
+  26:16  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  30:23  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\zeali\portfolio\components\Hero.tsx
+  96:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\zeali\portfolio\components\Projects.tsx
+  34:41  warning  'idx' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\zeali\portfolio\components\Skills.tsx
+  34:53  warning  'idx' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 5 problems (2 errors, 3 warnings)
+

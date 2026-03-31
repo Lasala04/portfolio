@@ -31,7 +31,7 @@ export default function Skills() {
           <div className="grid lg:grid-cols-3 gap-10">
             {/* Technical Skills - Takes up 2 columns */}
             <div className="lg:col-span-2 space-y-10">
-              {skillsData.categories.map((category, idx) => (
+              {skillsData.categories.map((category) => (
                 <motion.div key={category.name} variants={fadeIn}>
                   <h3 className="text-lg font-heading font-semibold text-[var(--color-text-primary)] mb-4 flex items-center gap-2">
                      {category.name}

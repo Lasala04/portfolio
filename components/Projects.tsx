@@ -31,7 +31,7 @@ export default function Projects() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {projectsData.map((project, idx) => (
+            {projectsData.map((project) => (
               <motion.div
                 key={project.title}
                 variants={fadeIn}
